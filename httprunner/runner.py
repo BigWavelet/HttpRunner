@@ -207,7 +207,7 @@ class Runner(object):
             err_resp_msg = "response: \n"
             err_resp_msg += "status_code: {}\n".format(resp.status_code)
             err_resp_msg += "headers: {}\n".format(resp.headers)
-            err_resp_msg += "body: {}\n".format(resp.text)
+            err_resp_msg += "body: %s\n" % (resp.text)
             logger.log_error(err_resp_msg)
 
             raise
