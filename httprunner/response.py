@@ -1,6 +1,9 @@
 # encoding: utf-8
 
 import re
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 from httprunner import exception, logger, testcase, utils
 from httprunner.compat import OrderedDict, basestring

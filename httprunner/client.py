@@ -3,6 +3,10 @@
 import re
 import time
 
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 import requests
 import urllib3
 from httprunner import logger

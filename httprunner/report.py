@@ -8,6 +8,10 @@ import unittest
 from collections import Iterable, OrderedDict
 from datetime import datetime
 
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 from httprunner import logger
 from httprunner.__about__ import __version__
 from httprunner.compat import basestring, bytes, json, numeric_types

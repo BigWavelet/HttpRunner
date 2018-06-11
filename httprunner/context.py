@@ -4,6 +4,8 @@ import copy
 import os
 import re
 import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 from httprunner import exception, testcase, utils
 from httprunner.compat import OrderedDict

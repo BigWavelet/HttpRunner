@@ -14,6 +14,10 @@ import string
 import types
 from datetime import datetime
 
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 from httprunner import exception, logger
 from httprunner.compat import OrderedDict, is_py2, is_py3
 from requests.structures import CaseInsensitiveDict

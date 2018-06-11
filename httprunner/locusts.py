@@ -4,6 +4,9 @@ import io
 import multiprocessing
 import os
 import sys
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 from httprunner.logger import color_print
 from httprunner.testcase import load_test_file

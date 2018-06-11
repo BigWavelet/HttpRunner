@@ -11,6 +11,10 @@ import re
 import string
 import time
 
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 from httprunner.compat import basestring, builtin_str, integer_types, str
 from httprunner.exception import ParamsError
 

@@ -9,6 +9,10 @@ import os
 import random
 import re
 
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 import yaml
 from httprunner import exception, logger, utils
 from httprunner.compat import OrderedDict, numeric_types

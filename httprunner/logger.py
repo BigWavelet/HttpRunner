@@ -2,6 +2,9 @@
 
 import logging
 import sys
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 from colorama import Back, Fore, Style, init
 from colorlog import ColoredFormatter

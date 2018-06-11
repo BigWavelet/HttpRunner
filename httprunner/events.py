@@ -1,5 +1,10 @@
 # encoding: utf-8
 
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
+
 class EventHook(object):
     """
     Simple event class used to provide hooks for different types of events in HttpRunner.

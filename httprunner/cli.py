@@ -6,6 +6,10 @@ import os
 import sys
 import unittest
 
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 from httprunner import logger
 from httprunner.__about__ import __version__
 from httprunner.compat import is_py2
